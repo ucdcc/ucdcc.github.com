@@ -1,4 +1,3 @@
-
 .main{width: 1000px; background-color: #C200E8; padding-top: 60px; padding-bottom: 10px; font-family: Carme;}
 
 .header{position: fixed; z-index: 100; top: 0px; left: 0px; margin: 0; padding: 0; width:100%; height: 50px; float:top; background-color: #A800B2;}
@@ -11,3 +10,4 @@
         -khtml-opacity: 0.4;  
         opacity: 0.4; }
 .imagetext{margin-left: 5px; margin-right: 5px;}
+
