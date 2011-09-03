@@ -1,9 +1,10 @@
 
-.main{width: 1000px; background-color: #C200E8; padding-top: 60px; padding-bottom: 10px; font-family: Carme;}
+.main{text-align: center; font-family: 'Ubuntu', sans-serif; width: 1000px; background-color: #C200E8; padding-top: 60px; padding-bottom: 10px; }
 
-.header{position: fixed; z-index: 100; top: 0px; left: 0px; margin: 0; padding: 0; width:100%; height: 50px; float:top; background-color: #A800B2;}
+.header{font-family: 'Ubuntu', sans-serif; position: fixed; z-index: 100; top: 0px; left: 0px; margin: 0; padding: 0; width:100%; height: 50px; float:top; background-color: #A800B2;
+-webkit-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -o-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); }
 
-.body{text-align: center; background-color: #CD00F5;}
+.body{font-family: 'Ubuntu', sans-serif; text-align: center; background-color: #CD00F5;}
 
 .imagetextbox{background-color: grey;-moz-border-radius: 15px; border-radius: 5px; width: 100px; z-index: 90; position: inherit; top: 10px; left: 60px; filter: 
 								alpha(opacity=40);  
@@ -11,3 +12,8 @@
         -khtml-opacity: 0.4;  
         opacity: 0.4; }
 .imagetext{margin-left: 5px; margin-right: 5px;}
+
+h1.announcmentheader{ font-family: 'Ubuntu', sans-serif; text-align: center;}
+
+.announcmentbox{width: 950px; margin-top: 15px; padding: 1px; padding-left: 15px; padding-right: 15px; background-color: #E780F5; font-family: 'Ubuntu', sans-serif; text-align: left; font-size: 14px; -moz-border-radius: 15px; border-radius: 15px;
+}
