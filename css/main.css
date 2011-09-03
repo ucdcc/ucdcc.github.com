@@ -1,5 +1,5 @@
 
-.main{text-align: center; font-family: 'Ubuntu', sans-serif; width: 1000px; background-color: #C200E8; padding-top: 60px; padding-bottom: 10px; }
+.main{position: absolute; text-align: center; font-family: 'Ubuntu', sans-serif; width: 1000px; background-color: #C200E8; padding-top: 60px; padding-bottom: 10px; }
 
 .header{font-family: 'Ubuntu', sans-serif; position: fixed; z-index: 100; top: 0px; left: 0px; margin: 0; padding: 0; width:100%; height: 50px; float:top; background-color: #A800B2;
 -webkit-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -o-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); }
@@ -15,5 +15,6 @@
 
 h1.announcmentheader{ font-family: 'Ubuntu', sans-serif; text-align: center;}
 
-.announcmentbox{width: 950px; margin-top: 15px; padding: 1px; padding-left: 15px; padding-right: 15px; background-color: #E780F5; font-family: 'Ubuntu', sans-serif; text-align: left; font-size: 14px; -moz-border-radius: 15px; border-radius: 15px;
-}
+.announcmentbox{position: relative; left: 10px ;width: 950px; margin-top: 15px; padding: 1px; padding-left: 15px; padding-right: 15px; background-color: #E780F5; font-family: 'Ubuntu', sans-serif; text-align: left; font-size: 14px; -moz-border-radius: 5px; border-radius: 5px;}
+
+.accposition{ position: relative; left: 10px}
