@@ -36,8 +36,8 @@
     <header class="header"> 
     <h1>UCDCC</h1>
     </header> 
-    <div class="main"> 
-    <div id="eyecandy" class="accordion"> 
+    <div id="main" class="main" align="center"> 
+    <div id="eyecandy" class="accordion accordionposition"> 
         <ol> 
             <li> 
                 <h2><span>River Running</span></h2> 
@@ -49,6 +49,15 @@
             </li> 
             <li> 
                 <h2><span>White Water</span></h2> 
+ 
+                <div> 
+                    <img src="img/whitewater.jpg" alt="white water"> 
+ 
+                    <div class="imagetextbox"><h3 class="imagetext">Scare The Freshers!</h3></div> 
+                </div> 
+            </li>
+            <li> 
+                <h2><span>Freestyle</span></h2> 
  
                 <div> 
                     <img src="img/whitewater.jpg" alt="white water"> 
@@ -99,8 +108,13 @@
   <!-- JavaScript at the bottom for fast page loading --> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
     <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script> 
-    <script src="js/accordion.js"></script> 
-    <script>$('#eyecandy').liteAccordion();</script> 
+    
+    <script src="js/accordion.js"></script>
+    <script>$('#eyecandy').liteAccordion();</script>
+    
+    <script src="js/align.js"></script>
+    <script>centerMain();</script>
+    
   <!-- scripts concatenated and minified via ant build script--> 
   <script defer src="js/plugins.js"></script> 
   <script defer src="js/script.js"></script> 
