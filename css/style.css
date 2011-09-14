@@ -236,7 +236,7 @@ h1.announcmentheader{ font-family: 'Ubuntu', sans-serif; text-align: center;}
 
 .eyecandy{width: 100%;height: 550px;background-color: white;}
 
-.fancypicture{position: absolute;right: 0;}
+.fancypicture{position: absolute;}
 
 .imagetext{position:absolute; top: 150px; left: 50px;;z-index: 90}
 
