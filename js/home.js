@@ -1,5 +1,5 @@
 //minimum width of page so picture and text don't overlap
-var w_min = 1000;
+var w_min = 1050;
 //sets image width
 var w_img = $('#mainimg').width();
 

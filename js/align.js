@@ -1,5 +1,5 @@
 //min width before resizing doesn't effect position of text
-var w_min = 1000;
+var w_min = 1050;
 var w_box = $('.announcmentbox').width();
 
 //Alligns elements on page
