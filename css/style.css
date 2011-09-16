@@ -262,7 +262,8 @@ li.headerli{
   padding-top: 10px;
   padding-bottom: 9px;
   display: block;
-  width: 95px;
+  padding-right: 11px;
+  padding-left: 11px;
   float: left;
 }
 
