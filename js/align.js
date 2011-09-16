@@ -12,6 +12,7 @@ $(document).ready(function() {
 				var ul_offset = menu_offset + $('.headertitle').width() + padding;
 				offset = offset + 'px';
 				menu_offset = menu_offset + 'px';
+				
 				$('.announcmentbox').css('left', offset);
 				$('.headericon').css('left', offset);
 				$('.headertitle').css('left', menu_offset);
@@ -23,6 +24,7 @@ $(document).ready(function() {
 				var ul_offset = menu_offset + $('.headertitle').width();
 				offset = offset + 'px';
 				menu_offset = menu_offset + 'px';
+				
 				$('.announcmentbox').css('left', offset);
 				$('.headericon').css('left', offset);
 				$('.headertitle').css('left', menu_offset);
@@ -39,6 +41,7 @@ $(window).resize(function () {
 				var ul_offset = menu_offset + $('.headertitle').width();
 				offset = offset + 'px';
     menu_offset = menu_offset + 'px';
+    
 				$('.announcmentbox').css('left', offset);
 				$('.headericon').css('left', offset);
     $('.headertitle').css('left', menu_offset);
@@ -50,6 +53,7 @@ $(window).resize(function () {
 				var ul_offset = menu_offset + $('.headertitle').width();
 				offset = offset + 'px';
     menu_offset = menu_offset + 'px';
+    
 				$('.announcmentbox').css('left', offset);
 				$('.headericon').css('left', offset);
     $('.headertitle').css('left', menu_offset);

@@ -247,6 +247,7 @@ img.headericon{
 a.headera{
   color: black;
   text-align: center;
+  cursor: pointer;
 }
  
 a.headera:hover,a.headera:active{
