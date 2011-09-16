@@ -211,38 +211,66 @@ td { vertical-align: top; }
    Author: Jeremiah Dunn
    ========================================================================== */
 
-/*.main{background-color: #6A94D4; position: absolute; text-align: center; vertical-align: center;font-family: 'Ubuntu', sans-serif; width: 800px;  padding-top: 60px; padding-bottom: 10px; }*/
-
-.header{background-color: #a7b9cd; color: white;font-family: 'Ubuntu', sans-serif; position: fixed; z-index: 1000; top: 0px; left: 0px; margin: 0; padding: 0; width:100%; height: 50px; float:top; 
--webkit-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -o-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); }
-
-.headertitle{}
-
-a.headera:hover,a.headera:active{
-  background-color:#6666ff;
-  text-decoration:none;
+.header{
+  text-align: left;
+  background-color: #a7b9cd; 
+  color: white;
+  font-family: 'Ubuntu', sans-serif; position: fixed; 
+  z-index: 1000; 
+  top: 0px; 
+  left: 0px; 
+  margin: 0; 
+  padding: 0; 
+  width:100%; 
+  height: 50px; 
+  float:top; 
+  -webkit-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); 
 }
 
-a.headera:link,a.headera:visited{
-  display:block;
-  width:150px;
-  color:#white;
-  background-color:#6666cc;
-  text-align:center;
-  font-weight:bold;
-  text-decoration:none;
+img.headericon{
+  width: 35px;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+}
+
+.headertitle{
+  position: absolute;
+  font-size: 300%;
+  padding-left: 5px;
+}
+
+a.headera{
+  color: black;
+  text-align: center;
 }
  
-.headerli{
-  float:left;
+a.headera:hover,a.headera:active{
+  text-decoration: none;
+}
+ 
+li.headerli:hover,li.headeruli:active{
+  background-color:#E9EEF2;
+}
+ 
+li.headerli{
+  padding-top: 10px;
+  padding-bottom: 7px;
+  display: block;
+  width: 100px;
+  float: left;
 }
 
-.headerul{
-  float:center;
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  font-size:large;
+ul.headerul{
+  position: absolute;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 110%;
 }
 
 .body{
@@ -252,24 +280,68 @@ a.headera:link,a.headera:visited{
 }
 
 
-h1.announcmentheader{ font-family: 'Ubuntu', sans-serif; text-align: center;}
+h1.announcmentheader{ 
+  font-family: 'Ubuntu', sans-serif; 
+  text-align: center;
+}
 
-.announcmentbox{background-color: #E9EEF2; position: relative; left: 10px ;width: 750px; margin-top: 60px; margin-bottom: 50px; padding: 1px; padding-left: 15px; padding-right: 15px; font-family: 'Ubuntu', sans-serif; text-align: left; font-size: 14px; -moz-border-radius: 5px; border-radius: 5px;
- -webkit-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -o-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); }
+.announcmentbox{
+  background-color: #E9EEF2; 
+  position: relative; 
+  left: 10px;
+  width: 750px; 
+  margin-top: 60px; 
+  margin-bottom: 50px; 
+  padding: 1px; 
+  padding-left: 15px; 
+  padding-right: 15px; 
+  font-family: 'Ubuntu', sans-serif; 
+  text-align: left; font-size: 14px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px;
+  -webkit-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); 
+  -moz-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); 
+  -o-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); 
+  box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); 
+}
  
-.announcmentboxhomepage{margin-top: 5px;}
+.announcmentboxhomepage{
+  margin-top: 5px;
+}
 
-.accordionposition{ position: relative; left: 10px}
+.accordionposition{ 
+  position: relative; 
+  left: 10px
+}
 
-.eyecandy{width: 100%;height: 550px;background-color: white;}
+.eyecandy{
+  width: 100%;
+  height: 550px;
+  background-color: white;
+}
 
-.fancypicture{position: absolute;}
+.fancypicture{
+  position: absolute;
+}
 
-.imagetext{text-align: left; position:absolute; top: 150px; left: 50px; width: 450px; z-index: 90;}
+.imagetext{
+  text-align: left; 
+  position:absolute; 
+  top: 150px; 
+  left: 50px; 
+  width: 450px; 
+  z-index: 90;
+}
 
-.imagetextheader{font-size: 450%; font: bold;}
+.imagetextheader{
+  font-size: 450%; 
+  font: bold;
+}
 
-.imagelinks{text-align: right; font-size: 150%;}
+.imagelinks{
+  text-align: right; 
+  font-size: 150%;
+}
 
 
 

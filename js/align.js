@@ -6,12 +6,26 @@ var w_box = $('.announcmentbox').width();
 $(document).ready(function() {
 		if (w_min < $(window).width()){
 				var offset = ($(window).width() - w_box)/2;
+				var menu_offset = offset + $('.headericon').width();
+				var ul_offset = menu_offset + $('.headertitle').width();
 				offset = offset + 'px';
+				menu_offset = menu_offset + 'px';
 				$('.announcmentbox').css('left', offset);
+				$('.headericon').css('left', offset);
+				$('.headertitle').css('left', menu_offset);
+				$('.headerul').css('left', ul_offset);
+				$('.header').css('width', $(window).width());
 		}else{
-		  var offset = (w_min - w_box)/2;
-		  offset = offset + 'px';
+				var offset = (w_min - w_box)/2;
+				var menu_offset = offset + $('.headericon').width();
+				var ul_offset = menu_offset + $('.headertitle').width();
+				offset = offset + 'px';
+				menu_offset = menu_offset + 'px';
 				$('.announcmentbox').css('left', offset);
+				$('.headericon').css('left', offset);
+				$('.headertitle').css('left', menu_offset);
+				$('.headerul').css('left', ul_offset);
+				$('.header').css('width', w_min);
 		}
 });
 
@@ -19,11 +33,24 @@ $(document).ready(function() {
 $(window).resize(function () {
 		if (w_min < $(window).width()){
 				var offset = ($(window).width() - w_box)/2;
+				var menu_offset = offset + $('.headericon').width();
+				var ul_offset = menu_offset + $('.headertitle').width();
 				offset = offset + 'px';
+    menu_offset = menu_offset + 'px';
 				$('.announcmentbox').css('left', offset);
+				$('.headericon').css('left', offset);
+    $('.headertitle').css('left', menu_offset);
+    $('.headerul').css('left', ul_offset);
+    $('.header').css('width', $(window).width());
 		}else{
 		  var offset = (w_min - w_box)/2;
-		  offset = offset + 'px';
+				var menu_offset = offset + $('.headericon').width();
+				var ul_offset = menu_offset + $('.headertitle').width();
+				offset = offset + 'px';
+    menu_offset = menu_offset + 'px';
 				$('.announcmentbox').css('left', offset);
+				$('.headericon').css('left', offset);
+    $('.headertitle').css('left', menu_offset);
+    $('.headerul').css('left', w_min);
 		}
 });
