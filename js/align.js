@@ -3,13 +3,14 @@ var w_min = 1050;
 var w_box = $('.announcmentbox').width();
 //adds padding to the right of the paddler+ucdcc logo
 var padding = 5;
+var h_title = $('.headertitle').width();
 
 //Alligns elements on page
 $(document).ready(function() {
 		if (w_min < $(window).width()){
 				var offset = ($(window).width() - w_box)/2;
 				var menu_offset = offset + $('.headericon').width();
-				var ul_offset = menu_offset + $('.headertitle').width() + padding;
+				var ul_offset = menu_offset + h_title + padding;
 				offset = offset + 'px';
 				menu_offset = menu_offset + 'px';
 				
@@ -21,7 +22,7 @@ $(document).ready(function() {
 		}else{
 				var offset = (w_min - w_box)/2;
 				var menu_offset = offset + $('.headericon').width();
-				var ul_offset = menu_offset + $('.headertitle').width();
+				var ul_offset = menu_offset + h_title;
 				offset = offset + 'px';
 				menu_offset = menu_offset + 'px';
 				
@@ -38,7 +39,7 @@ $(window).resize(function () {
 		if (w_min < $(window).width()){
 				var offset = ($(window).width() - w_box)/2;
 				var menu_offset = offset + $('.headericon').width();
-				var ul_offset = menu_offset + $('.headertitle').width();
+				var ul_offset = menu_offset + h_title;
 				offset = offset + 'px';
     menu_offset = menu_offset + 'px';
     
@@ -50,7 +51,7 @@ $(window).resize(function () {
 		}else{
 		  var offset = (w_min - w_box)/2;
 				var menu_offset = offset + $('.headericon').width();
-				var ul_offset = menu_offset + $('.headertitle').width();
+				var ul_offset = menu_offset + h_title;
 				offset = offset + 'px';
     menu_offset = menu_offset + 'px';
     

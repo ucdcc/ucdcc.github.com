@@ -245,7 +245,7 @@ img.headericon{
 }
 
 a.headera{
-  color: black;
+  color: #243242;
   text-align: center;
   cursor: pointer;
 }
@@ -278,6 +278,7 @@ ul.headerul{
 
 .body{
   background-color: #D1E1EF;
+  color: #203636;
   font-family: 'Ubuntu', sans-serif; 
   text-align: center; 
 }
