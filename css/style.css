@@ -332,7 +332,6 @@ h1.announcmentheader{
   text-align: left; 
   position:absolute; 
   top: 150px; 
-  left: 50px; 
   width: 450px; 
   z-index: 90;
 }

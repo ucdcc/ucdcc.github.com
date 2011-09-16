@@ -1,35 +1,49 @@
 //min width before resizing doesn't effect position of text
 var w_min = 1050;
 var w_box = $('.announcmentbox').width();
-//adds padding to the right of the paddler+ucdcc logo
-var padding = 5;
 var h_title = $('.headertitle').width();
+
+//adds padding to the right of the paddler+ucdcc logo
+var menu_padding = 5;
+
+//aligns image text relative to lower container
+var imagetext_padding = -120;
 
 //Alligns elements on page
 $(document).ready(function() {
 		if (w_min < $(window).width()){
 				var offset = ($(window).width() - w_box)/2;
 				var menu_offset = offset + $('.headericon').width();
-				var ul_offset = menu_offset + h_title + padding;
+				var ul_offset = menu_offset + h_title + menu_padding;
+				var imagetext_offset = offset + imagetext_padding;
+				
 				offset = offset + 'px';
 				menu_offset = menu_offset + 'px';
+				ul_offset = ul_offset + 'px';
+				imagetext_offset = imagetext_offset + 'px';
 				
 				$('.announcmentbox').css('left', offset);
 				$('.headericon').css('left', offset);
 				$('.headertitle').css('left', menu_offset);
 				$('.headerul').css('left', ul_offset);
+				$('.imagetext').css('left', imagetext_offset);
 				$('.header').css('width', $(window).width());
 		}else{
 				var offset = (w_min - w_box)/2;
 				var menu_offset = offset + $('.headericon').width();
-				var ul_offset = menu_offset + h_title;
+				var ul_offset = menu_offset + h_title + menu_padding;
+				var imagetext_offset = offset + imagetext_padding;
+				
 				offset = offset + 'px';
 				menu_offset = menu_offset + 'px';
+				ul_offset = ul_offset + 'px';
+				imagetext_offset = imagetext_offset + 'px';
 				
 				$('.announcmentbox').css('left', offset);
 				$('.headericon').css('left', offset);
 				$('.headertitle').css('left', menu_offset);
 				$('.headerul').css('left', ul_offset);
+				$('.imagetext').css('left', imagetext_offset);
 				$('.header').css('width', w_min);
 		}
 });
@@ -39,25 +53,35 @@ $(window).resize(function () {
 		if (w_min < $(window).width()){
 				var offset = ($(window).width() - w_box)/2;
 				var menu_offset = offset + $('.headericon').width();
-				var ul_offset = menu_offset + h_title;
+				var ul_offset = menu_offset + h_title + menu_padding;
+				var imagetext_offset = offset + imagetext_padding;
+				
 				offset = offset + 'px';
     menu_offset = menu_offset + 'px';
+    ul_offset = ul_offset + 'px';
+    imagetext_offset = imagetext_offset + 'px';
     
 				$('.announcmentbox').css('left', offset);
 				$('.headericon').css('left', offset);
     $('.headertitle').css('left', menu_offset);
     $('.headerul').css('left', ul_offset);
+    $('.imagetext').css('left', imagetext_offset);
     $('.header').css('width', $(window).width());
 		}else{
 		  var offset = (w_min - w_box)/2;
 				var menu_offset = offset + $('.headericon').width();
-				var ul_offset = menu_offset + h_title;
+				var ul_offset = menu_offset + h_title + menu_padding;
+				var imagetext_offset = offset + imagetext_padding;
+				
 				offset = offset + 'px';
     menu_offset = menu_offset + 'px';
+    ul_offset = ul_offset + 'px';
+    imagetext_offset = imagetext_offset + 'px';
     
 				$('.announcmentbox').css('left', offset);
 				$('.headericon').css('left', offset);
     $('.headertitle').css('left', menu_offset);
+    $('.imagetext').css('left', imagetext_offset);
     $('.headerul').css('left', w_min);
 		}
 });
