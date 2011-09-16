@@ -248,11 +248,12 @@ a.headera{
   color: #243242;
   text-align: center;
   cursor: pointer;
-}
- 
-a.headera:hover,a.headera:active{
   text-decoration: none;
 }
+/* 
+a.headera:hover,a.headera:active{
+  
+}*/
  
 li.headerli:hover,li.headeruli:active{
   background-color:#E9EEF2;
