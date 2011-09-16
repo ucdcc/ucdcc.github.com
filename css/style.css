@@ -298,7 +298,8 @@ h1.announcmentheader{
   width: 750px; 
   margin-top: 60px; 
   margin-bottom: 50px; 
-  padding: 1px; 
+  padding: 1px;
+  padding-bottom: 10px; 
   padding-left: 15px; 
   padding-right: 15px; 
   font-family: 'Ubuntu', sans-serif; 
