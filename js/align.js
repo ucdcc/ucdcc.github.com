@@ -1,13 +1,15 @@
 //min width before resizing doesn't effect position of text
 var w_min = 1050;
 var w_box = $('.announcmentbox').width();
+//adds padding to the right of the paddler+ucdcc logo
+var padding = 5;
 
 //Alligns elements on page
 $(document).ready(function() {
 		if (w_min < $(window).width()){
 				var offset = ($(window).width() - w_box)/2;
 				var menu_offset = offset + $('.headericon').width();
-				var ul_offset = menu_offset + $('.headertitle').width();
+				var ul_offset = menu_offset + $('.headertitle').width() + padding;
 				offset = offset + 'px';
 				menu_offset = menu_offset + 'px';
 				$('.announcmentbox').css('left', offset);
