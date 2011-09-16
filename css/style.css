@@ -218,13 +218,15 @@ td { vertical-align: top; }
 
 .headertitle{}
 
-a.headera:hover,a.headera:active{}
+a.headera:hover,a.headera:active{
+  background-color:#6666ff;
+		text-decoration:none;
+}
 
-a.headera:link,a.headera:visited
-	{
+a.headera:link,a.headera:visited{
 		display:block;
 		width:150px;
-		color:#333333;
+		color:#white;
 		background-color:#6666cc;
 		text-align:center;
 		font-weight:bold;
