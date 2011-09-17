@@ -213,7 +213,7 @@ td { vertical-align: top; }
 
 .header{
   text-align: left;
-  background-color: #a7b9cd; 
+  background-color: #99ABBF; 
   color: white;
   font-family: 'Ubuntu', sans-serif; position: fixed; 
   z-index: 1000; 
@@ -224,10 +224,10 @@ td { vertical-align: top; }
   width:100%; 
   height: 50px; 
   float:top; 
-  -webkit-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
+  /*-webkit-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
   -o-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); 
+  box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); */
 }
 
 img.headericon{
@@ -278,8 +278,13 @@ ul.headerul{
   font-size: 105%;
 }
 
+.b_shadow{
+  position: absolute;
+  top: 50px;
+}
+
 .body{
-  background-color: #D1E1EF;
+  background-color: #E9EEF2;
   color: #203636;
   font-family: 'Ubuntu', sans-serif; 
   text-align: center; 
@@ -292,6 +297,7 @@ h1.announcmentheader{
 }
 
 .announcmentbox{
+  z-index: 60;
   background-color: #E9EEF2; 
   position: relative; 
   left: 10px;
@@ -323,17 +329,22 @@ h1.announcmentheader{
 
 .eyecandy{
   width: 100%;
-  height: 550px;
-  background-color: white;
+  height: 450px;
+  background-color: #D1E1EF;
+  margin-bottom: 110px;
 }
 
 .fancypicture{
   position: absolute;
+  top: 100px;
+  z-index: 50;
+  overflow: visible;
 }
 
-.bottom{ 
+.bottom{
+  z-index: 40; 
   position: relative; 
-  bottom:-440px; 
+  bottom:-400px; 
   overflow: visible;
 }
 

@@ -2,13 +2,14 @@
 var w_min = 1050;
 //sets image width
 var w_img = $('#mainimg').width();
+var p_img = 150;
 //aligns image text relative to lower container
 var imagetext_padding = -130;
 
 //Set width of page according to size of window
 $(document).ready(function () {
   if ($(window).width() > w_min) {
-    var offset = $(window).width() - w_img;
+    var offset = $(window).width() - w_img - p_img;
     var imagetext_offset = ($(window).width() - w_box)/2 + imagetext_padding;
     
     offset = offset + 'px';
@@ -18,7 +19,7 @@ $(document).ready(function () {
     $('.imagetext').css('left', imagetext_offset);
     $('.bottom').css('width', $(window).width());
   } else {
-    var offset = w_min - w_img;
+    var offset = w_min - w_img - p_img;
     var imagetext_offset = (w_min - w_box)/2 + imagetext_padding;
     
     offset = offset + 'px';

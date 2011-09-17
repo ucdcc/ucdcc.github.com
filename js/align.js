@@ -22,6 +22,7 @@ $(document).ready(function() {
 				$('.headertitle').css('left', menu_offset);
 				$('.headerul').css('left', ul_offset);
 				
+				$('.b_shadow').css('width', $(window).width());
 				$('.header').css('width', $(window).width());
 		}else{
 				var offset = (w_min - w_box)/2;
