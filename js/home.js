@@ -16,6 +16,7 @@ $(document).ready(function () {
     
     $('#mainimg').css('left', offset);
     $('.imagetext').css('left', imagetext_offset);
+    $('.bottom').css('width', $(window).width());
   } else {
     var offset = w_min - w_img;
     var imagetext_offset = (w_min - w_box)/2 + imagetext_padding;
@@ -25,6 +26,7 @@ $(document).ready(function () {
     
     $('#mainimg').css('left', offset);
     $('.imagetext').css('left', imagetext_offset);
+    $('.bottom').css('width', w_min);
   }
 });
 
@@ -39,6 +41,7 @@ $(window).resize(function () {
     
     $('#mainimg').css('left', offset);
     $('.imagetext').css('left', imagetext_offset);
+    $('.bottom').css('width', $(window).width());
   } else {
     var offset = w_min - w_img;
     var imagetext_offset = (w_min - w_box)/2 + imagetext_padding;
@@ -48,5 +51,6 @@ $(window).resize(function () {
     
     $('#mainimg').css('left', offset);
     $('.imagetext').css('left', imagetext_offset);
+    $('.bottom').css('width', w_min);
   }
 });
