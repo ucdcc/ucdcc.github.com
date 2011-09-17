@@ -1,57 +1,71 @@
 //minimum width of page so picture and text don't overlap
-var w_min = 1050;
+var width = 1000;
 //sets image width
 var w_img = $('#mainimg').width();
-var p_img = 150;
+var p_img = 500;
 //aligns image text relative to lower container
-var imagetext_padding = -130;
+var imagetext_padding = 10;
+//padding for menu from center div
+var ul_padding = 200;
 
 //Set width of page according to size of window
 $(document).ready(function () {
-  if ($(window).width() > w_min) {
-    var offset = $(window).width() - w_img - p_img;
-    var imagetext_offset = ($(window).width() - w_box)/2 + imagetext_padding;
+  var ul_menu;
+  if ($(window).width() > width) {
+    var l_center = ($(window).width() - width)/2;
+    ul_menu = l_center + ul_padding;
     
-    offset = offset + 'px';
-    imagetext_offset = imagetext_offset + 'px';
-    
-    $('#mainimg').css('left', offset);
-    $('.imagetext').css('left', imagetext_offset);
-    $('.bottom').css('width', $(window).width());
   } else {
-    var offset = w_min - w_img - p_img;
-    var imagetext_offset = (w_min - w_box)/2 + imagetext_padding;
-    
-    offset = offset + 'px';
-    imagetext_offset = imagetext_offset + 'px';
-    
-    $('#mainimg').css('left', offset);
-    $('.imagetext').css('left', imagetext_offset);
-    $('.bottom').css('width', w_min);
+    var l_center = 0;
+    //temp top menu fix
+    if($(window).width() < 800){
+      ul_menu = 0;
+    }else{
+      ul_menu = ul_padding;
+    }
   }
+  
+  var img_offset = p_img;
+  var imagetext_offset = imagetext_padding;
+  
+  img_offset = img_offset + 'px';
+  imagetext_offset = imagetext_offset + 'px';
+  ul_menu = ul_menu + 'px';
+  l_center = l_center + 'px';
+  
+  $('.center').css('left', l_center);
+  $('.fancypicture').css('left', img_offset);
+  $('.imagetext').css('left', imagetext_offset);
+  $('.headerul').css('left', ul_menu);
 });
 
 //rescales page after resize
 $(window).resize(function () {
-  if ($(window).width() > w_min) {
-    var offset = $(window).width() - w_img;
-    var imagetext_offset = ($(window).width() - w_box)/2 + imagetext_padding;
+  var ul_menu;
+  if ($(window).width() > width) {
+    var l_center = ($(window).width() - width)/2;
+    ul_menu = l_center + ul_padding;
     
-    offset = offset + 'px';
-    imagetext_offset = imagetext_offset + 'px';
-    
-    $('#mainimg').css('left', offset);
-    $('.imagetext').css('left', imagetext_offset);
-    $('.bottom').css('width', $(window).width());
   } else {
-    var offset = w_min - w_img;
-    var imagetext_offset = (w_min - w_box)/2 + imagetext_padding;
-    
-    offset = offset + 'px';
-    imagetext_offset = imagetext_offset + 'px';
-    
-    $('#mainimg').css('left', offset);
-    $('.imagetext').css('left', imagetext_offset);
-    $('.bottom').css('width', w_min);
+    var l_center = 0;
+    //temp top menu fix
+    if($(window).width() < 800){
+      ul_menu = 0;
+    }else{
+      ul_menu = ul_padding;
+    }
   }
+  
+  var img_offset = p_img;
+  var imagetext_offset = imagetext_padding;
+  
+  img_offset = img_offset + 'px';
+  imagetext_offset = imagetext_offset + 'px';
+  ul_menu = ul_menu + 'px';
+  l_center = l_center + 'px';
+  
+  $('.center').css('left', l_center);
+  $('.fancypicture').css('left', img_offset);
+  $('.imagetext').css('left', imagetext_offset);
+  $('.headerul').css('left', ul_menu);
 });
