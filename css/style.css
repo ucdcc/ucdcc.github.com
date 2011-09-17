@@ -331,6 +331,12 @@ h1.announcmentheader{
   position: absolute;
 }
 
+.bottom{ 
+  position: relative; 
+  bottom:-440px; 
+  overflow: visible;
+}
+
 .imagetext{
   text-align: left; 
   position:absolute; 
