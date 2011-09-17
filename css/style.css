@@ -353,12 +353,7 @@ h1.announcmentheader{
   overflow: visible;
 }
 
-.bottom{
-  z-index: 40; 
-  position: relative; 
-  bottom:-400px; 
-  overflow: visible;
-}
+
 
 .imagetext{
   text-align: right;
@@ -378,7 +373,22 @@ h1.announcmentheader{
   font-size: 150%;
 }
 
+.contentbox{
+  margin-left: 20px;
+  float: left;
+  padding: 0px;
+  width: 480px;
+  text-align: left;
+}
 
+.committeecontentbox{
+ height: 350px;
+}
+
+.mugshots{
+  float:left; 
+  padding:5px;
+}
 
 /* ==|== non-semantic helper classes ========================================
 Please define your styles before this section.
