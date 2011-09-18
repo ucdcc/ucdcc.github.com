@@ -360,6 +360,7 @@ h1.announcmentheader{
   position: absolute; 
   top: 150px;  
   z-index: 90;
+  width: 450px;
 }
 
 .imagetextheader{
