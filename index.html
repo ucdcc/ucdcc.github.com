@@ -59,11 +59,11 @@
 			       <p style="text-align:left;">For more information for new members click here!</p>
         </div>
       </div>
-      <div class="fadein">
-      <img id="front1" width="500" height="400"class = "fancypicture" src="img/front1.jpg"/>
-      <img id="front2" width="500" height="400"class = "fancypicture" src="img/front2.jpg"/>
-      <img id="front3" width="500" height="400"class = "fancypicture" src="img/front3.jpg"/>
-      <img id="front4" width="500" height="400"class = "fancypicture" src="img/front4.jpg"/>
+      <div id="gallery" class="fancypicture">
+      <img id="front1" width="500" height="400"class = "" src="img/front1.jpg"/>
+      <img id="front2" width="500" height="400"class = "" src="img/front2.jpg"/>
+      <img id="front3" width="500" height="400"class = "" src="img/front3.jpg"/>
+      <img id="front4" width="500" height="400"class = "" src="img/front4.jpg"/>
       </div>
     </div>
 
@@ -95,7 +95,8 @@
         
     <!--<script src="js/align.js"></script>-->
     <script src="js/home.js"></script>
-    <script src="js/jq_gallery.js"></script>
+    <script src="js/jquery.cycle.all.js"></script>
+    <script>$('#gallery').cycle({fx: 'fade', random: 1, speed: 1500, timeout: 4000});</script>
     
   <!-- scripts concatenated and minified via ant build script--> 
   <script defer src="js/plugins.js"></script> 
