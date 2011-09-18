@@ -10,7 +10,7 @@
  
 <head> 
     
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
     <!-- Use the .htaccess and remove these lines to avoid edge case issues.
          More info: h5bp.com/b/378 --> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
@@ -31,49 +31,68 @@
 </head> 
 <body class="body" > 
 
-<div id="container"> 
+<div class = "bg_eyecandy"></div>
+<div id="container">     
     
-    
-    <header class="header"> 
-    <strong>UCDCC</strong>
-    <a class="headerlinks" href="">Home</a>
-    <a class="headerlinks" href="">About Us</a>
-    <a class="headerlinks" href="">The Committee</a>
-    <a class="headerlinks" href="">Forum</a>
-    <a class="headerlinks" href="">Twitter</a>
-    <a class="headerlinks" href="">Facebook</a>
-    </header> 
+  <header class="header"> 
+    <img class="b_shadow" height="10px" src="img/bottom-shadow.png"/>
+    <!--<img class="headericon" src="img/smallpaddler.png"/>
+    <strong class="headertitle">UCDCC</strong>-->
+    <ul class="headerul">
+      <li class="headerli"><a class="headera" href="index.html">Home</a></li>
+      <li class="headerli"><a class="headera">New Members</a></li>
+      <li class="headerli"><a class="headera" href="committee.html">The Committee</a></li>
+      <li class="headerli"><a class="headera">About Us</a></li>
+      <li class="headerli"><a class="headera" href="/forum">Forum</a></li>
+      <li class="headerli"><a class="headera" href="http://ucdcanoeclub.wordpress.com/" target="_blank">Blog</a></li>
+      <li class="headerli"><a class="headera" href="https://www.facebook.com/group.php?gid=7060672244" target="_blank">Facebook</a></li>
+      <li class="headerli"><a class="headera" href="https://twitter.com/#!/ucdcc" target="_blank" >Twitter</a></li>
+     </ul>
+  </header> 
+  
+  <div class="center">
     <div class = "eyecandy">
-      <div class="imagetext">
+      <div id="imagetext" class="imagetext">
         <strong class="imagetextheader">UCD Canoe Club</strong>
+        <div style = "position: relative; text-align:right;">
+          <div class="imagelinks">River trips every weekend</div>
+          <div class="imagelinks">Pool sessions every week</div>
+          <div class="imagelinks">Epic trips away</div>
+        </div>
       </div>
-      <img id="mainimg" width="799" height="550"class = "fancypicture" src="img/frontpage.png"/>
+      <div class="fadein">
+      <img id="front1" width="500" height="400"class = "fancypicture" src="img/front1.jpg"/>
+      <img id="front2" width="500" height="400"class = "fancypicture" src="img/front2.jpg"/>
+      <img id="front3" width="500" height="400"class = "fancypicture" src="img/front3.jpg"/>
+      <img id="front4" width="500" height="400"class = "fancypicture" src="img/front4.jpg"/>
+      </div>
     </div>
 
-      <div class="announcmentbox announcmentboxhomepage">
-       
-        <h1 class="announcmentheader">The Next Big Trip!</h1>
-        
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae diam risus, nec convallis enim. Donec non tempus enim. Etiam faucibus adipiscing orci eget consectetur. Ut et nulla elit, vitae pellentesque elit. Aenean interdum sodales lacinia. Ut laoreet luctus felis, at rhoncus purus facilisis in. Etiam luctus vestibulum neque ac egestas. Sed vel est id lorem interdum aliquet. Praesent mattis pulvinar dui ut tristique. Ut eu nunc at massa volutpat adipiscing in at mi.</p>
+    <div id = "upperleft" class = "contentbox">
+      <h3>Saturday Trips</h3>
+    </div>
+    <div id = "upperright" class = "contentbox">
+      <h3>Weekends Away</h3>
+    </div>
+    <div id = "lowerleft" class = "contentbox">
+      <h3>Pool Sessions</h3>
+    </div>
+    <div id = "lowerright" class = "contentbox">
+      <h3>Sign Up!</h3>
+    </div>
+  </div>
+  
+  <footer> 
 
-          <p>Aliquam eleifend urna quis nunc mattis ac imperdiet libero euismod. In elit nulla, convallis et ultrices fermentum, ornare in orci. Praesent a nulla metus. Suspendisse a lorem nec eros iaculis suscipit a at neque. Fusce ullamcorper tincidunt mauris eget pulvinar. Pellentesque ligula magna, semper vel sagittis ut, aliquet vel lacus. In tristique nunc a arcu sollicitudin congue. Nullam erat lectus, convallis at suscipit id, feugiat vel tellus. Nam sed est lectus, in tempus purus. Praesent quis adipiscing metus. Phasellus at nunc sit amet ipsum sollicitudin aliquam a eget orci. Aenean ac mi id augue sollicitudin suscipit. Curabitur luctus nisi et lacus mollis laoreet. Mauris eget lectus ipsum, nec scelerisque urna. Praesent elementum vehicula odio nec imperdiet.
-          </p>
-          
-          
-          <p>Aliquam eleifend urna quis nunc mattis ac imperdiet libero euismod. In elit nulla, convallis et ultrices fermentum, ornare in orci. Praesent a nulla metus. Suspendisse a lorem nec eros iaculis suscipit a at neque. Fusce ullamcorper tincidunt mauris eget pulvinar. Pellentesque ligula magna, semper vel sagittis ut, aliquet vel lacus. In tristique nunc a arcu sollicitudin congue. Nullam erat lectus, convallis at suscipit id, feugiat vel tellus. Nam sed est lectus, in tempus purus. Praesent quis adipiscing metus. Phasellus at nunc sit amet ipsum sollicitudin aliquam a eget orci. Aenean ac mi id augue sollicitudin suscipit. Curabitur luctus nisi et lacus mollis laoreet. Mauris eget lectus ipsum, nec scelerisque urna. Praesent elementum vehicula odio nec imperdiet.
-          </p>
-      </div>
-
-    <footer> 
- 
-    </footer> 
-    </div> <!--! end of #container --> 
+  </footer> 
+  </div> <!--! end of #container --> 
   <!-- JavaScript at the bottom for fast page loading --> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
     <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script> 
         
-    <script src="js/align.js"></script>
+    <!--<script src="js/align.js"></script>-->
     <script src="js/home.js"></script>
+    <script src="js/jq_gallery.js"></script>
     
   <!-- scripts concatenated and minified via ant build script--> 
   <script defer src="js/plugins.js"></script> 

@@ -211,38 +211,184 @@ td { vertical-align: top; }
    Author: Jeremiah Dunn
    ========================================================================== */
 
-/*.main{background-color: #6A94D4; position: absolute; text-align: center; vertical-align: center;font-family: 'Ubuntu', sans-serif; width: 800px;  padding-top: 60px; padding-bottom: 10px; }*/
+.header{
+  text-align: left;
+  background-color: #99ABBF; 
+  color: white;
+  font-family: 'Ubuntu', sans-serif; 
+  position: fixed; 
+  z-index: 1000; 
+  top: 0px; 
+  left: 0px; 
+  margin: 0; 
+  padding: 0; 
+  width:100%; 
+  height: 50px; 
+  float: left;
+  white-space:nowrap;
+  /*-webkit-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); */
+}
 
-.header{background-color: #052F6D; color: white;font-family: 'Ubuntu', sans-serif; position: fixed; z-index: 1000; top: 0px; left: 0px; margin: 0; padding: 0; width:100%; height: 50px; float:top; 
--webkit-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -o-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); }
+img.headericon{
+  width: 28px;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+}
 
-.body{background-color: #6A94D4; font-family: 'Ubuntu', sans-serif; text-align: center; }
+.headertitle{
+  position: absolute;
+  top: 7px;
+  font-size: 250%;
+  padding-left: 5px;
+}
 
-.imagetextbox{background-color: grey;-moz-border-radius: 15px; border-radius: 5px; width: 100px; z-index: 90; position: inherit; top: 10px; left: 60px; filter: 
-								alpha(opacity=40);  
-        -moz-opacity: 0.4;  
-        -khtml-opacity: 0.4;  
-        opacity: 0.4; }
-.imagetext{margin-left: 5px; margin-right: 5px;}
-
-h1.announcmentheader{ font-family: 'Ubuntu', sans-serif; text-align: center;}
-
-.announcmentbox{background-color: #437DD4; position: relative; left: 10px ;width: 750px; margin-top: 60px; margin-bottom: 50px; padding: 1px; padding-left: 15px; padding-right: 15px; font-family: 'Ubuntu', sans-serif; text-align: left; font-size: 14px; -moz-border-radius: 5px; border-radius: 5px;
- -webkit-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); -o-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); }
+a.headera{
+  color: #243242;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
  
-.announcmentboxhomepage{margin-top: 5px;}
+li.headerli:hover,li.headeruli:active{
+  background-color:#E9EEF2;
+}
+ 
+li.headerli{
+  padding-top: 10px;
+  padding-bottom: 9px;
+  display: block;
+  padding-right: 11px;
+  padding-left: 11px;
+  float: left;
+}
 
-.accordionposition{ position: relative; left: 10px}
+ul.headerul{
+  width: 100%;
+  position: absolute;
+  top: 14px;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 110%;
+}
 
-.eyecandy{width: 100%;height: 550px;background-color: white;}
+.b_shadow{
+  position: absolute;
+  top: 50px;
+  width:100%
+}
 
-.fancypicture{position: absolute;}
+.body{
+  background-color: #E9EEF2;
+  color: #203636;
+  font-family: 'Ubuntu', sans-serif; 
+  text-align: center; 
+}
 
-.imagetext{position:absolute; top: 150px; left: 50px;;z-index: 90}
+.center{
+  position: absolute;
+  width: 1000px;
+}
 
-.imagetextheader{size: 30; font: bold;}
+h1.announcmentheader{ 
+  font-family: 'Ubuntu', sans-serif; 
+  text-align: center;
+}
+
+.announcmentbox{
+  z-index: 60;
+  background-color: #E9EEF2; 
+  position: relative; 
+  left: 10px;
+  width: 750px; 
+  margin-top: 60px; 
+  margin-bottom: 50px; 
+  padding: 1px;
+  padding-bottom: 10px; 
+  padding-left: 15px; 
+  padding-right: 15px; 
+  font-family: 'Ubuntu', sans-serif; 
+  text-align: left; font-size: 14px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px;
+  -webkit-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); 
+  -moz-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); 
+  -o-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); 
+  box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4); 
+}
+ 
+.announcmentboxhomepage{
+  margin-top: 5px;
+}
+
+.accordionposition{ 
+  position: relative; 
+  left: 10px
+}
+
+.bg_eyecandy{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 450px;
+  background-color: #D1E1EF;
+}
+
+.eyecandy{
+  width: 100%;
+  height: 450px;
+  background-color: #D1E1EF;
+  margin-bottom: 110px;
+}
+
+.fancypicture{
+  position: absolute;
+  top: 100px;
+  z-index: 50;
+  overflow: visible;
+}
 
 
+
+.imagetext{
+  text-align: right;
+  position: absolute; 
+  top: 150px;  
+  z-index: 90;
+}
+
+.imagetextheader{
+  
+  font-size: 450%; 
+  font: bold;
+}
+
+.imagelinks{
+  text-align: right; 
+  font-size: 150%;
+}
+
+.contentbox{
+  margin-left: 20px;
+  float: left;
+  padding: 0px;
+  width: 480px;
+  text-align: left;
+}
+
+.committeecontentbox{
+ height: 350px;
+}
+
+.mugshots{
+  float:left; 
+  padding:5px;
+}
 
 /* ==|== non-semantic helper classes ========================================
 Please define your styles before this section.
