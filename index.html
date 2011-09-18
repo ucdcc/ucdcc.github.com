@@ -54,31 +54,34 @@
     <div class = "eyecandy">
       <div id="imagetext" class="imagetext">
         <strong class="imagetextheader">UCD Canoe Club</strong>
-        <div style = "position: relative; text-align:right;">
-          <div class="imagelinks">River trips every weekend</div>
-          <div class="imagelinks">Pool sessions every week</div>
-          <div class="imagelinks">Epic trips away</div>
+        <div style = "position: relative;">
+          <p style="text-align:left;">UCD Canoe Club is one of UCD's most vibrant and active sports clubs and prides itself on its weekly pool and river based skills training, weekend trips and vibrant social activity.</p>
+			       <p style="text-align:left;">For more information for new members click here!</p>
         </div>
       </div>
-      <div class="fadein">
-      <img id="front1" width="500" height="400"class = "fancypicture" src="img/front1.jpg"/>
-      <img id="front2" width="500" height="400"class = "fancypicture" src="img/front2.jpg"/>
-      <img id="front3" width="500" height="400"class = "fancypicture" src="img/front3.jpg"/>
-      <img id="front4" width="500" height="400"class = "fancypicture" src="img/front4.jpg"/>
+      <div id="gallery" class="fancypicture">
+      <img id="front1" width="500" height="400"class = "" src="img/front1.jpg"/>
+      <img id="front2" width="500" height="400"class = "" src="img/front2.jpg"/>
+      <img id="front3" width="500" height="400"class = "" src="img/front3.jpg"/>
+      <img id="front4" width="500" height="400"class = "" src="img/front4.jpg"/>
       </div>
     </div>
 
     <div id = "upperleft" class = "contentbox">
-      <h3>Saturday Trips</h3>
+      <h2>Kayaing</h2>
+      <p style="padding-left: 10px">The club offers a range of competitive and non-competitive kayaking and caters for a variety of disciplines; river running, whitewater, freestyle, polo, canadian canoeing and even the odd bit of marathon and long distance.</p>
+      <p style="padding-left: 10px">For more information about kayaking click here.</p>
     </div>
     <div id = "upperright" class = "contentbox">
-      <h3>Weekends Away</h3>
+      <h2>35 Years of UCDCC</h2>
+      <p style="padding-left: 10px">Celebrating its 35th anniversary this year, the Canoe Club is also one of the largest and oldest kayaking clubs in the country.</p>
+   		 <p style="padding-left: 10px">For information about the club's history click here</p>
     </div>
     <div id = "lowerleft" class = "contentbox">
-      <h3>Pool Sessions</h3>
+      <h3></h3>
     </div>
     <div id = "lowerright" class = "contentbox">
-      <h3>Sign Up!</h3>
+      <h3></h3>
     </div>
   </div>
   
@@ -92,7 +95,8 @@
         
     <!--<script src="js/align.js"></script>-->
     <script src="js/home.js"></script>
-    <script src="js/jq_gallery.js"></script>
+    <script src="js/jquery.cycle.all.js"></script>
+    <script>$('#gallery').cycle({fx: 'fade', random: 1, speed: 1500, timeout: 4000});</script>
     
   <!-- scripts concatenated and minified via ant build script--> 
   <script defer src="js/plugins.js"></script> 
