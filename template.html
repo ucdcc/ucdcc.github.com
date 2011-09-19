@@ -10,7 +10,7 @@
  
 <head> 
     
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
     <!-- Use the .htaccess and remove these lines to avoid edge case issues.
          More info: h5bp.com/b/378 --> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
@@ -18,68 +18,63 @@
     <meta name="author" content=""> 
     <!-- Mobile viewport optimized: j.mp/bplateviewport --> 
     <meta name="viewport" content="width=device-width,initial-scale=1"> 
-    <title>UCDCC - INSERT PAGE TITLE HERE</title> 
+    <title>UCDCC - Home</title> 
   <!-- CSS: implied media=all --> 
   <!-- CSS concatenated and minified via ant build script--> 
   <link rel="stylesheet" href="css/style.css"> 
-  <link rel="stylesheet" href="css/main.css"> 
-  <link rel="stylesheet" href="css/accordion.css"> 
   <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
   <!-- end CSS--> 
   <!-- All JavaScript at the bottom, except for Modernizr / Respond.
        Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
        For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ --> 
-  <script src="js/libs/modernizr-2.0.6.min.js"></script> 
+  <script type="text/javascript" src="js/libs/modernizr-2.0.6.min.js"></script> 
 </head> 
 <body class="body" > 
 
-<div id="container"> 
-    
+<div id="container">     
     
   <header class="header"> 
-    <img class="headericon" src="img/smallpaddler.png"/>
-    <strong class="headertitle">UCDCC</strong>
-   <ul class="headerul">
-      <li class="headerli"><a class="headera">Home</a></li>
-      <li class="headerli"><a class="headera">New Members</a></li>
-      <li class="headerli"><a class="headera">About Us</a></li>
-      <li class="headerli"><a class="headera">Committee</a></li>
-      <li class="headerli"><a class="headera">Forum</a></li>
-      <li class="headerli"><a class="headera">Twitter</a></li>
-      <li class="headerli"><a class="headera">Facebook</a></li>
-    </ul>
+    <img class="b_shadow" height="10px" src="img/bottom-shadow.png"/>
+    <!--<img class="headericon" src="img/smallpaddler.png"/>
+    <strong class="headertitle">UCDCC</strong>-->
+    <ul class="headerul">
+      <li class="headerli"><a class="headera" href="index.html">Home</a></li>
+      <!-- <li class="headerli"><a class="headera">New Members</a></li> -->
+      <li class="headerli"><a class="headera" href="committee.html">The Committee</a></li>
+      <!-- <li class="headerli"><a class="headera">About Us</a></li> -->
+      <li class="headerli"><a class="headera" href="/forum">Forum</a></li>
+      <li class="headerli"><a class="headera" href="http://ucdcanoeclub.wordpress.com/" target="_blank">Blog</a></li>
+      <li class="headerli"><a class="headera" href="https://www.facebook.com/group.php?gid=7060672244" target="_blank">Facebook</a></li>
+      <li class="headerli"><a class="headera" href="https://twitter.com/#!/ucdcc" target="_blank" >Twitter</a></li>
+     </ul>
   </header> 
   
-  <div class="main"> 
-    <div class="announcmentbox">
-    <!--
-    ////////////////////
-    ADD CONTENT HERE
-    ////////////////////
-    -->
-
-    </div>
-  </div> 
+  <div class="center">
+  
+  
+  <!--CONTENT GOES HERE -->
+  
+  
+  </div>
+  
   <footer> 
 
   </footer> 
   </div> <!--! end of #container --> 
   <!-- JavaScript at the bottom for fast page loading --> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
-    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script> 
-    
-    <script src="js/accordion.js"></script>
-    <script>$('#eyecandy').liteAccordion();</script>
-    
-    <script src="js/align.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
+    <script type="text/javascript">window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script> 
+        
+    <!--<script src="js/align.js"></script>-->
+    <script type="text/javascript" src="js/align.js"></script>
     
   <!-- scripts concatenated and minified via ant build script--> 
-  <script defer src="js/plugins.js"></script> 
-  <script defer src="js/script.js"></script> 
+  <script type="text/javascript" defer src="js/plugins.js"></script> 
+  <script type="text/javascript" defer src="js/script.js"></script> 
   <!-- end scripts--> 
  
   <!-- Change UA-XXXXX-X to be your site's ID --> 
-  <script> 
+  <script type="text/javascript"> 
     window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
       load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
