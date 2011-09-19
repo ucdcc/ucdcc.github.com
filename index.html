@@ -27,11 +27,12 @@
   <!-- All JavaScript at the bottom, except for Modernizr / Respond.
        Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
        For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ --> 
-  <script src="js/libs/modernizr-2.0.6.min.js"></script> 
+  <script type="text/javascript" src="js/libs/modernizr-2.0.6.min.js"></script> 
 </head> 
 <body class="body" > 
 
-<div class = "bg_eyecandy"></div>
+<div id="bg_eyecandy1" class = "bg_eyecandy"></div>
+<div id="bg_eyecandy2" class = "bg_eyecandy"></div>
 <div id="container">     
     
   <header class="header"> 
@@ -87,26 +88,26 @@
   </footer> 
   </div> <!--! end of #container --> 
   <!-- JavaScript at the bottom for fast page loading --> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
-    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script> 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
+    <script type="text/javascript">window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script> 
         
     <!--<script src="js/align.js"></script>-->
-    <script src="js/home.js"></script>
-    <script src="js/jquery.cycle.all.js"></script>
-    <script>
+    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
     $(document).ready(function() {
-    $('#gallery').append('<img id="front1" width="500" height="400"class = "" src="img/front1.jpg"/><img id="front2" width="500" height="400"class = "" src="img/front2.jpg"/><img id="front3" width="500" height="400"class = "" src="img/front3.jpg"/><img id="front4" width="500" height="400"class = "" src="img/front4.jpg"/>');
+    $('#gallery').append('<img id="front1" width="500"  height="400" style="z-index:60;" class = "" src="img/front1.jpg"/><img id="front2" width="500" height="400" style="z-index:60;" class = "" src="img/front2.jpg"/><img id="front3" width="500" height="400" style="z-index:60;" class = "" src="img/front3.jpg"/><img id="front4" width="500" height="400" style="z-index:60;" class = "" src="img/front4.jpg"/>');
     $('#gallery').cycle({fx: 'fade', random: 1, speed: 1500, timeout: 4000});
     });
     </script>
     
   <!-- scripts concatenated and minified via ant build script--> 
-  <script defer src="js/plugins.js"></script> 
-  <script defer src="js/script.js"></script> 
+  <script type="text/javascript" defer src="js/plugins.js"></script> 
+  <script type="text/javascript" defer src="js/script.js"></script> 
   <!-- end scripts--> 
  
   <!-- Change UA-XXXXX-X to be your site's ID --> 
-  <script> 
+  <script type="text/javascript"> 
     window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
       load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'

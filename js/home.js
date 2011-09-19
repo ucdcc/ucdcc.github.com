@@ -10,12 +10,16 @@ var ul_padding = 200;
 
 //Set width of page according to size of window
 $(document).ready(function () {
+  $('#bg_eyecandy1').css('left', '0px');
+  $('#bg_eyecandy2').css('right', '0px');
+
   var ul_menu;
   if ($(window).width() > width) {
     var l_center = ($(window).width() - width)/2;
     ul_menu = l_center + ul_padding;
-    
+    $('.bg_eyecandy').width(l_center + 1);
   } else {
+    $('.bg_eyecandy').width(0);
     var l_center = 0;
     //temp top menu fix
     if($(window).width() < 800){
@@ -45,8 +49,9 @@ $(window).resize(function () {
   if ($(window).width() > width) {
     var l_center = ($(window).width() - width)/2;
     ul_menu = l_center + ul_padding;
-    
+    $('.bg_eyecandy').width(l_center + 1);
   } else {
+    $('.bg_eyecandy').width(0);
     var l_center = 0;
     //temp top menu fix
     if($(window).width() < 800){
