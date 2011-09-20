@@ -6,7 +6,7 @@ var p_img = 500;
 //aligns image text relative to lower container
 var imagetext_padding = 10;
 //padding for menu from center div
-var ul_padding = 200;
+var ul_padding = 100;
 
 //Set width of page according to size of window
 $(document).ready(function () {
