@@ -334,7 +334,7 @@ h1.announcmentheader{
 .bg_eyecandy{
   position: absolute;
   z-index: 1;
-  width: 100%;
+  width: 0px;
   height: 450px;
   background-color: #D1E1EF;
 }
@@ -365,7 +365,7 @@ h1.announcmentheader{
 
 .imagetextheader{
   
-  font-size: 450%; 
+  font-size: 50px; 
   font: bold;
 }
 
@@ -388,7 +388,7 @@ h1.announcmentheader{
 
 .mugshots{
   float:left; 
-  padding:5px;
+  padding:10px;
 }
 
 /* ==|== non-semantic helper classes ========================================

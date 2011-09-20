@@ -1,78 +1,55 @@
-//min width before resizing doesn't effect position of text
-var w_min = 1050;
-var w_box = $('.announcmentbox').width();
-var h_title = $('.headertitle').width();
+//minimum width of page so picture and text don't overlap
+var width = 1000;
+//sets image width
+var w_img = $('#mainimg').width();
+var p_img = 500;
+//aligns image text relative to lower container
+var imagetext_padding = 10;
+//padding for menu from center div
+var ul_padding = 200;
 
-//adds padding to the right of the paddler+ucdcc logo
-var menu_padding = 12;
-
-//Alligns elements on page
-$(document).ready(function() {
-  if (w_min < $(window).width()){
-    var offset = ($(window).width() - w_box)/2;
-    var menu_offset = offset + $('.headericon').width();
-    var ul_offset = menu_offset + h_title + menu_padding;
-		  
-    offset = offset + 'px';
-    menu_offset = menu_offset + 'px';
-    ul_offset = ul_offset + 'px';
-		  
-    $('.announcmentbox').css('left', offset);
-    $('.headericon').css('left', offset);
-    $('.headertitle').css('left', menu_offset);
-    $('.headerul').css('left', ul_offset);
-		  
-    //$('.b_shadow').css('width', $(window).width());
-    //$('.header').css('width', $(window).width());
-  }else{
-    var offset = (w_min - w_box)/2;
-    var menu_offset = offset + $('.headericon').width();
-    var ul_offset = menu_offset + h_title + menu_padding;
-				    
-    offset = offset + 'px';
-    menu_offset = menu_offset + 'px';
-    ul_offset = ul_offset + 'px';
-				    
-    $('.announcmentbox').css('left', offset);
-    $('.headericon').css('left', offset);
-    $('.headertitle').css('left', menu_offset);
-    $('.headerul').css('left', ul_offset);
-				    
-    //$('.header').css('width', w_min);
+//Set width of page according to size of window
+$(document).ready(function () {
+  var ul_menu;
+  if ($(window).width() > width) {
+    var l_center = ($(window).width() - width)/2;
+    ul_menu = l_center + ul_padding;
+  } else {
+    var l_center = 0;
+    //temp top menu fix
+    if($(window).width() < 800){
+      ul_menu = 0;
+    }else{
+      ul_menu = ul_padding;
+    }
   }
+  
+  ul_menu = ul_menu + 'px';
+  l_center = l_center + 'px';
+  
+  $('.center').css('left', l_center);
+  $('.headerul').css('left', ul_menu);
 });
 
 //rescales page after resize
 $(window).resize(function () {
-  if (w_min < $(window).width()){
-    var offset = ($(window).width() - w_box)/2;
-    var menu_offset = offset + $('.headericon').width();
-    var ul_offset = menu_offset + h_title + menu_padding;
-    var imagetext_offset = offset + imagetext_padding;
-				    
-    offset = offset + 'px';
-    menu_offset = menu_offset + 'px';
-    ul_offset = ul_offset + 'px';
-	
-    $('.announcmentbox').css('left', offset);
-    $('.headericon').css('left', offset);
-    $('.headertitle').css('left', menu_offset);
-    $('.headerul').css('left', ul_offset);
-	
-    //$('.header').css('width', $(window).width());
-  }else{
-    var offset = (w_min - w_box)/2;
-    var menu_offset = offset + $('.headericon').width();
-    var ul_offset = menu_offset + h_title + menu_padding;
-    var imagetext_offset = offset + imagetext_padding;
-				    
-    offset = offset + 'px';
-    menu_offset = menu_offset + 'px';
-    ul_offset = ul_offset + 'px';
-    $('.announcmentbox').css('left', offset);
-    $('.headericon').css('left', offset);
-    $('.headertitle').css('left', menu_offset);
-    
-    //$('.headerul').css('left', w_min);
+  var ul_menu;
+  if ($(window).width() > width) {
+    var l_center = ($(window).width() - width)/2;
+    ul_menu = l_center + ul_padding;
+  } else {
+    var l_center = 0;
+    //temp top menu fix
+    if($(window).width() < 800){
+      ul_menu = 0;
+    }else{
+      ul_menu = ul_padding;
+    }
   }
+  
+  ul_menu = ul_menu + 'px';
+  l_center = l_center + 'px';
+  
+  $('.center').css('left', l_center);
+  $('.headerul').css('left', ul_menu);
 });
