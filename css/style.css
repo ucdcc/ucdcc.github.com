@@ -51,7 +51,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222;}
    ========================================================================== */
 
 a { color: #00e; }
-a:visited { color: #551a8b; }
+a:visited { #00e; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 
@@ -353,6 +353,28 @@ h1.announcmentheader{
   overflow: visible;
 }
 
+.button {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E9EEF2), color-stop(100%,#d3d3d3));
+    background: -moz-linear-gradient(center top, #E9EEF2 0%, #d3d3d3 100%);
+    -webkit-box-shadow: -1px 1px 2px 1px #999999;
+    -moz-box-shadow: -1px 1px 2px 1px #999999;
+    box-shadow: -1px 1px 2px 1px #999999;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    display: inline-block;
+   color: #555555;
+    font-size: 20px;
+    font-weight: bold;
+	text-decoration: none;
+
+}
+.button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f06196), color-stop(50%,#ef6196), color-stop(50%,#ee4d88), color-stop(100%,#ee4d88));
+    background: -moz-linear-gradient(center top, #f06196 0%, #ef6196 50%, #ee4d88 50%, #ee4d88 100%);
+    color: #FFFFFF;
+}
 
 
 .imagetext{
