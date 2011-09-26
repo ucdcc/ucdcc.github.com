@@ -364,10 +364,12 @@ h1.announcmentheader{
     border-radius: 6px;
     padding: 10px 20px;
     display: inline-block;
-   color: #555555;
+    color: #555555;
     font-size: 20px;
     font-weight: bold;
-	text-decoration: none;
+    text-decoration: none;
+    margin-left: 12px;
+    margin-top: 10px;
 
 }
 .button:hover {
@@ -378,7 +380,7 @@ h1.announcmentheader{
 
 
 .imagetext{
-  text-align: right;
+  text-align: left;
   position: absolute; 
   top: 150px;  
   z-index: 90;
