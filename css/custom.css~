@@ -1,6 +1,11 @@
 .center {text-align: center}
 ​.left {text-align: left}
 
+.top_padding
+{
+  padding-top: 60px;
+}
+
 .homepics
 {
   position: absolute;
@@ -10,9 +15,14 @@
   height:450px;
 }
 
+.home_text
+{
+  height:450px;
+}
+
 .center_header
 {
   margin-left: auto; 
   margin-right: auto; 
-  width: 900;
+  width: 900px;
 }

@@ -1,12 +1,22 @@
 .center {text-align: center}
 ​.left {text-align: left}
 
+.top_padding
+{
+  padding-top: 60px;
+}
+
 .homepics
 {
   position: absolute;
   z-index: 50;
   overflow: visible;
-  width: 100%;
+  width: 500px;
+  height:450px;
+}
+
+.home_text
+{
   height:450px;
 }
 
