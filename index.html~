@@ -62,42 +62,47 @@
 	      
 	    <div class="span5 home_text">
 
-	      <h1>UCDCC</h1>
+	      <h1>UCD Canoe Club</h1>
 	      
-	      <p>
-		UCD Canoe Club is one of UCD's most vibrant and active sports clubs. On top of weekly pool and river based skills training, the club throws a mean party, and organizes even meaner(!!) weekends away.
-	      </p>
+	      <section id="blurb">
+		UCD Canoe Club is one of UCD's most vibrant and active sports clubs. Indoor training in UCD'd new pool twice weekly, river trips around Dublin, Meath and Wicklow any given Saturday, plenty of social nights and unforgettable weekends away to destinations all around the country.
+	      </section>
 	      
-	      <div class="span4">
-	      <a href="http://forum.ucdcanoeclub.com/" class="btn btn-large">Join Our Forum</a>
-	      </div>
+
+	      <a href="http://forum.ucdcanoeclub.com/" class="btn btn-large top_padding">
+		<strong>
+		  Join Our Forum
+		</strong>
+	      </a>
+
 	    </div>
 	  </div> 
 	  
 	  <!-- additional content goes here -->
 	  <div class="row"> 
 	    <div class="span6">
-	      <p>
-	      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
-	      </p>
+	      <h2>New Members</h2>
+      <p>From boats, to gear, to our own home grown qualified instructors, there is no better place to start kayaking. Those with kayaking experience can plug into a active and thriving community that has grown over the club's 35 years in existence. 
+	</p>
+	<a href="newmembers.html" class="btn"> Read more...</a>
 	    </div>
 	    <div class="span6">
-	      <p>
-	      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
-	      </p>
+	     <h2>Trips Away</h2>
+      <p>We go on four epic trips away ever year, to some of Ireland's most beautiful places. Perfect if you're here on an exchange and want to see as much of the country as possible or you're just interested in an unforgettable weekend of kayaking, partying and fancy dress.</p>
+        <a href="events.html" class="btn">Read more...</a>
 	    </div>
 	  </div>
 	  
 	  <div class="row"> 
 	    <div class="span6">
-	      <p>
-	      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
-	      </p>
+	      <h2>Get To Know Us</h2>
+      <p>Every year eight members of the club step up to keep this show on the road. Check out who they are, where they come from and what the do for the club.</p>
+      <a href="committee.html" class="btn">Read more...</a>
 	    </div>
 	    <div class="span6">
-	      <p>
-	      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
-	      </p>
+	      <h2>Kayaking</h2>
+      <p>River running, white water, freestyle, polo, marathon...have a go at everything! Want something more structured? Try kayaking skills training and assessments, river safety and rescue courses or maybe a first aid course.</p>
+ 		<a href="disciplines.html" class="btn">Read more...</a>
 	    </div>
 	  </div>
 	  
