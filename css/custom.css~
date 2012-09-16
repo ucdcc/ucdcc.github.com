@@ -1,2 +1,11 @@
-
+.center {text-align: center}
 ​.left {text-align: left}
+
+.homepics{
+  position: absolute;
+  top: 100px;
+  z-index: 50;
+  overflow: visible;
+  width: 100%;
+  height:450px;
+}
