@@ -1,3 +1,8 @@
+body
+{
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .center {text-align: center}
 ​.left {text-align: left}
 
@@ -27,11 +32,25 @@
   width: 900px;
 }
 
-.imagecontainer {
-    border-radius:10px;
-    -moz-border-radius:10px;
-    -webkit-border-radius: 10px;
-    overflow:hidden;
-    width:200px;
-    height:200px;
+.imagecontainer 
+{
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius: 10px;
+  overflow:hidden;
+  width:150px;
+  height:150px;
+}
+
+.freshertip
+{
+  border:double;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 90%;
+}
+
+.freshertiphead
+{
+  font-size:120%;
 }
