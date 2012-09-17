@@ -26,3 +26,12 @@
   margin-right: auto; 
   width: 900px;
 }
+
+.imagecontainer {
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    overflow:hidden;
+    width:200px;
+    height:200px;
+}
