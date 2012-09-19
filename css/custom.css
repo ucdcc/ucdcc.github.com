@@ -9,6 +9,37 @@ body
 
 /*header specific*/
 
+.unselected
+{
+  color:#F5FAFF;
+}
+
+.navbar .nav > li > a{
+  text-shadow: none;
+}
+
+.navbar-inner
+{
+  background-image: linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
+  background-image: -o-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
+  background-image: -moz-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
+  background-image: -webkit-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
+  background-image: -ms-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
+
+  background-image: -webkit-gradient(
+	  linear,
+	  left bottom,
+	  left top,
+	  color-stop(0.21, rgb(155,167,199)),
+	  color-stop(0.58, rgb(142,164,204))
+  );
+
+  border: 1px solid #8EA4CC;
+}
+
+
+
+
 .center_header
 {
   margin-left: auto; 
@@ -77,13 +108,14 @@ body
 
 .freshertip
 {
-  border:double;
-  padding-left: 5px;
-  padding-right: 5px;
-  font-size: 90%;
+  -moz-border-radius:10px;
+  -webkit-border-radius: 10px;
+  background-color: #D1F0FF;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .freshertiphead
 {
-  font-size:120%;
+  font-size:130%;
 }
