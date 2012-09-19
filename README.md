@@ -1,4 +1,1 @@
-Updating site with twitter bootstrap
-====
-
-website-2012
+Redesinged site for 2012
