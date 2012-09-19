@@ -4,7 +4,7 @@
 body
 {
   font-family: 'Ubuntu', sans-serif;
-  background-color: #F0F8FF;
+  background-color: #E9EEF2;
 }
 
 /*header specific*/
@@ -21,21 +21,20 @@ body
 .navbar-inner
 {
   background-image: linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
-background-image: -o-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
-background-image: -moz-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
-background-image: -webkit-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
-background-image: -ms-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
+  background-image: -o-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
+  background-image: -moz-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
+  background-image: -webkit-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
+  background-image: -ms-linear-gradient(bottom, rgb(155,167,199) 21%, rgb(142,164,204) 58%);
 
-background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left top,
-	color-stop(0.21, rgb(155,167,199)),
-	color-stop(0.58, rgb(142,164,204))
-);
+  background-image: -webkit-gradient(
+	  linear,
+	  left bottom,
+	  left top,
+	  color-stop(0.21, rgb(155,167,199)),
+	  color-stop(0.58, rgb(142,164,204))
+  );
 
-border: 1px solid #8EA4CC;
-
+  border: 1px solid #8EA4CC;
 }
 
 
@@ -86,6 +85,17 @@ border: 1px solid #8EA4CC;
   height:450px;
 }
 
+.bgdiv
+{
+  background-color: #D1E1EF;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  left:0px;
+  top:0px;
+  z-index:-1;
+}
+
 /*custom styles for committee page*/
 
 .imagecontainer 
@@ -111,12 +121,13 @@ border: 1px solid #8EA4CC;
 {
   -moz-border-radius:10px;
   -webkit-border-radius: 10px;
-  background-color: #D1F0FF;
+  background-color: #d9e2e9;
   padding-left: 15px;
   padding-right: 15px;
+  font-size:90%;
 }
 
 .freshertiphead
 {
-  font-size:130%;
+  font-size:120%;
 }
