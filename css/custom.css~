@@ -5,6 +5,7 @@ body
 {
   font-family: 'Ubuntu', sans-serif;
   background-color: #E9EEF2;
+  padding-bottom:60px;
 }
 
 /*header specific*/
