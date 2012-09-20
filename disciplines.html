@@ -1,118 +1,99 @@
-
-<!doctype html> 
- 
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]--> 
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]--> 
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]--> 
-<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline --> 
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]--> 
- 
-<head> 
-    
-    <meta charset="utf-8">
-    <!-- Use the .htaccess and remove these lines to avoid edge case issues.
-         More info: h5bp.com/b/378 --> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-    <meta name="description" content=""> 
-    <meta name="author" content=""> 
-    <!-- Mobile viewport optimized: j.mp/bplateviewport --> 
-    <meta name="viewport" content="width=device-width,initial-scale=1"> 
-    <title>UCDCC - Kayaking</title> 
-  <!-- CSS: implied media=all --> 
-  <!-- CSS concatenated and minified via ant build script--> 
-  <link rel="stylesheet" href="css/style.css"> 
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-  <!-- end CSS--> 
-  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
-       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
-       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ --> 
-  <script type="text/javascript" src="js/libs/modernizr-2.0.6.min.js"></script> 
-</head> 
-<body class="body" > 
-
-<div id="container">     
-    
-  <header class="header"> 
-    <img class="b_shadow" height="10px" src="img/bottom-shadow.png"/>
-    <!--<img class="headericon" src="img/smallpaddler.png"/>
-    <strong class="headertitle">UCDCC</strong>-->
-    <ul class="headerul">
-      <li class="headerli"><a class="headera" href="index.html">Home</a></li>
-      <li class="headerli"><a class="headera" href="newmembers.html">New Members</a></li>
-      <li class="headerli"><a class="headera" href="disciplines.html">Kayaking</a></li>
-      <li class="headerli"><a class="headera" href="events.html">Trips Away</a></li>
-      <li class="headerli"><a class="headera" href="committee.html">The Committee</a></li>
-      <!-- <li class="headerli"><a class="headera">About Us</a></li> -->
-      <li class="headerli"><a class="headera" href="http://forum.ucdcanoeclub.com">Forum</a></li>
-      <li class="headerli"><a class="headera" href="http://ucdcanoeclub.wordpress.com/" target="_blank">Blog</a></li>
-      <li class="headerli"><a class="headera" href="https://www.facebook.com/group.php?gid=7060672244" target="_blank">Facebook</a></li>
-      <li class="headerli"><a class="headera" href="https://twitter.com/#!/ucdcc" target="_blank" >Twitter</a></li>
-      <li class="headerli"><a class="headera" href="contact.html">Contact</a></li>
-
-     </ul>
-  </header>  
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UCDCC</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
   
-  <div class="center" style="padding-top:60px;">
-  <!--CONTENT GOES HERE -->
-  <h1>Disciplines</h1>
-    	<div class = "contentbox kayakingcontentbox">		
-			<h2>River Running</h2>
-			<p>The most practised discipline the club offers; suitable for new members, paddlers and oldies alike. Embark on a river trip from A to B on grade 2/2+/3 water, enjoy the cameraderie of a group, negotiate weirs, learn about eddy lines, get a handle on flowing water techniques and take advantage of relatively low volume waters to try new things in a low consequence environment.</p>
-			<p>Club river running trips are held every Saturday on rivers around Dublin, starting on the Liffey and Boyne. They present an ideal environment for new members to learn the basics and for older hands to consolidate and hone skills and to experiment with new techniques. New members can expect to receive demonstrations of, and coaching in techniques on the Level 2 and 3 kayaking syllabi and are encouraged to progress to a level 3 skills standard. Skills assessments can be arranged for members who have gained enough experience and technical ability.</p>
+    <!-- menu -->
+    <div class="navbar navbar-fixed-top ">
+      <div class="navbar-inner">
+	<div class="center_header">
+	  <ul class="nav ">
+	    <li>
+	      <a href="index.html" class="unselected">Home</a>
+	    </li>
+	    <li>
+	      <a href="newmembers.html" class="unselected">New Members</a>
+	    </li>
+	    <li class="active">
+	      <a href="disciplines.html">Kayaking</a>
+	    </li>
+	    <li>
+	      <a href="events.html" class="unselected">Trips Away</a>
+	    </li>
+	    <li>
+	      <a href="committee.html" class="unselected">The Committee</a>
+	    </li>
+	    <li>
+	      <a href="http://forum.ucdcanoeclub.com" class="unselected">Forum</a>
+	    </li>
+	    <li>
+	      <a href="http://ucdcanoeclub.wordpress.com/" target="_blank" class="unselected">Blog</a>
+	    </li>
+	    <li>	     
+	      <a href="https://www.facebook.com/group.php?gid=7060672244" target="_blank" class="unselected">Facebook</a>
+	    </li>
+	    <li>
+	      <a href="https://twitter.com/#!/ucdcc" target="_blank" class="unselected">Twitter</a>
+	    </li>
+	    <li>
+	      <a href="contact.html">Contact</a>
+	    </li>
+	  </ul>
 	</div>
-    	<div class = "contentbox kayakingcontentbox">		
-			<h2>White Water</h2>
-			<p>The most photographed discipline offered by the club; entry level whitewater (grade 3/3+) is suitable for new members who’ve invested some time on the basics, and the higher end (grade 4/4+/5) can give even the most experienced paddlers a run for their money! Encounter rapids and drops  initialy and progress to run waterfalls, punch through holes and negotiate pourovers.</p>
-			<p>Club trips featuring white water take place in Wicklow later in the year, new members can experience higher volume paddling for the first time and are encouraged join in with the more experienced paddlers in running rapids and wavetrains as many times as possible, all in the name of catching the white water bug.</p>
-			<p>UCD Canoe Club paddlers enter in white water races around the country during the year, including the Colligan Gorge Games and Wacko on the Jacko. These competitions are a great opportunity for paddlers to gain experience on more challenging irish white water and represent their college.</p>
-			<p>Private trips are often organised and see UCD paddlers running white water rivers around Ireland on their days off, such as the Dargle, Glenmacnas, Upper Liffey, Clare Glens, Roughty and the Flesk. In the summer many choose to visit the Alps to experience the next level of white water, touring France, Italy, Slovenia and Switzerland and sampling some of what Europe has to offer, on and off the river. These trips are not organised by the club but contribute to the collective experience of our members, which often benefits all members indirectly; hearing about exotic rivers abroad or being warned to avoid some local specialities.</p>
-	</div>
-    	<div class = "contentbox kayakingcontentbox">		
-			<h2>Polo</h2>
-			<p>The only kayak-based ball sport recognised by the World Games, canoe polo is the perfect stage on which to combine paddling skills with strategy, team skills and athleticism. New members are encouraged to give it a go and even form a beginner team to enter in the Dublin Canoe Polo League.</p>
-			<p>Polo teams comprise of five players including one goalie.  Players wear full face helmets, slimmed down bouyancy aids and specialised polo decks and must shoot the ball in the opposing team’s goal, a rectangle suspended a paddle-height above the water. The game, played in 10 minute halves, is fast and furious or speedy and skillful depending on who you ask.</p>
-			<p>A minority sport in Ireland (and indeed the world) canoe polo is played by several clubs and colleges around the country and polo competitions are held at intervals during the year, including a polo tournament at the kayaking intervarsities.</p>
-	</div>
-    	<div class = "contentbox kayakingcontentbox">		
-			<h2>Freestyle</h2>
-			<p>Featuring the smallest, most responsive boats in the club’s armada, freestyle is a discipline accessible to new members who’ve spent some time on the basics and are looking to try surfing or to attempt some basic tricks; waves, air-guitars, spins and maybe even a pop out.</p>
-			<p>Freestyle paddlers make use of features on a river, such as a wave or a hole, and use core skills to manipulate their boat and acheive a variety of impressive results; blunts, loops, cartwheels and even crazier moves like a Phonix Monkey or a McNasty.</p>
-			<p>Exploring freestyle is an excellent way for beginner paddlers to build confidence, have some fun and add to the challenge of paddling even the more basic features. Use waves and eddy lines encountered along a river running trip and exploit the potential to increase your fun on the trip!</p>
- 	</div> 
-  </div>
-  
-  <footer> 
-
-  </footer> 
-  </div> <!--! end of #container --> 
-  <!-- JavaScript at the bottom for fast page loading --> 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
-    <script type="text/javascript">window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script> 
-        
-    <!--<script src="js/align.js"></script>-->
-    <script type="text/javascript" src="js/align.js"></script>
+      </div>
+    </div>
     
-  <!-- scripts concatenated and minified via ant build script--> 
-  <script type="text/javascript" defer src="js/plugins.js"></script> 
-  <script type="text/javascript" defer src="js/script.js"></script> 
-  <!-- end scripts--> 
- 
-  <!-- Change UA-XXXXX-X to be your site's ID --> 
-  <script type="text/javascript"> 
-    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
-    Modernizr.load({
-      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-    });
-  </script> 
- 
- 
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-       chromium.org/developers/how-tos/chrome-frame-getting-started --> 
-  <!--[if lt IE 7 ]>
-    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]--> 
- 
-</body> 
+    <div class ="container top_padding">
+    <!--[if IE 7]><div style="height:60px;line-height: 0;font-size: 0;"></div><![endif]-->
+      <!-- content goes here -->
+      <div class="row">
+	<div class="span12 center">
+	  <h1>Disciplines</h1>
+	</div>
+      </div>
+      
+      <div class="row top_padding"> 
+	<div class="span6">
+	  <h2>River Running</h2>
+	  <p>The most practised discipline the club offers; suitable for new members, paddlers and oldies alike. Embark on a river trip from A to B on grade 2/2+/3 water, enjoy the cameraderie of a group, negotiate weirs, learn about eddy lines, get a handle on flowing water techniques and take advantage of relatively low volume waters to try new things in a low consequence environment.</p>
+	  <p>Club river running trips are held every Saturday on rivers around Dublin, starting on the Liffey and Boyne. They present an ideal environment for new members to learn the basics and for older hands to consolidate and hone skills and to experiment with new techniques. New members can expect to receive demonstrations of, and coaching in techniques on the Level 2 and 3 kayaking syllabi and are encouraged to progress to a level 3 skills standard. Skills assessments can be arranged for members who have gained enough experience and technical ability.</p>
+	</div>
+	<div class="span6">
+	  <h2>White Water</h2>
+	  <p>The most photographed discipline offered by the club; entry level whitewater (grade 3/3+) is suitable for new members who’ve invested some time on the basics, and the higher end (grade 4/4+/5) can give even the most experienced paddlers a run for their money! Encounter rapids and drops  initialy and progress to run waterfalls, punch through holes and negotiate pourovers.</p>
+	  <p>Club trips featuring white water take place in Wicklow later in the year, new members can experience higher volume paddling for the first time and are encouraged join in with the more experienced paddlers in running rapids and wavetrains as many times as possible, all in the name of catching the white water bug.</p>
+	  <p>UCD Canoe Club paddlers enter in white water races around the country during the year, including the Colligan Gorge Games and Wacko on the Jacko. These competitions are a great opportunity for paddlers to gain experience on more challenging irish white water and represent their college.</p>
+	  <p>Private trips are often organised and see UCD paddlers running white water rivers around Ireland on their days off, such as the Dargle, Glenmacnas, Upper Liffey, Clare Glens, Roughty and the Flesk. In the summer many choose to visit the Alps to experience the next level of white water, touring France, Italy, Slovenia and Switzerland and sampling some of what Europe has to offer, on and off the river. These trips are not organised by the club but contribute to the collective experience of our members, which often benefits all members indirectly; hearing about exotic rivers abroad or being warned to avoid some local specialities.</p>
+	</div>
+      </div>
+      
+      <div class="row"> 
+	<div class="span6">
+	  <h2>Polo</h2>
+	  <p>The only kayak-based ball sport recognised by the World Games, canoe polo is the perfect stage on which to combine paddling skills with strategy, team skills and athleticism. New members are encouraged to give it a go and even form a beginner team to enter in the Dublin Canoe Polo League.</p>
+	  <p>Polo teams comprise of five players including one goalie.  Players wear full face helmets, slimmed down bouyancy aids and specialised polo decks and must shoot the ball in the opposing team’s goal, a rectangle suspended a paddle-height above the water. The game, played in 10 minute halves, is fast and furious or speedy and skillful depending on who you ask.</p>
+	  <p>A minority sport in Ireland (and indeed the world) canoe polo is played by several clubs and colleges around the country and polo competitions are held at intervals during the year, including a polo tournament at the kayaking intervarsities.</p>
+	</div>
+	<div class="span6">
+	  <h2>Freestyle</h2>
+	  <p>Featuring the smallest, most responsive boats in the club’s armada, freestyle is a discipline accessible to new members who’ve spent some time on the basics and are looking to try surfing or to attempt some basic tricks; waves, air-guitars, spins and maybe even a pop out.</p>
+	  <p>Freestyle paddlers make use of features on a river, such as a wave or a hole, and use core skills to manipulate their boat and acheive a variety of impressive results; blunts, loops, cartwheels and even crazier moves like a Phonix Monkey or a McNasty.</p>
+	  <p>Exploring freestyle is an excellent way for beginner paddlers to build confidence, have some fun and add to the challenge of paddling even the more basic features. Use waves and eddy lines encountered along a river running trip and exploit the potential to increase your fun on the trip!</p>
+	</div>
+      </div>
+	  
+    </div>
+    
+    
+    <!--js files go here-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+>>>>>>> 872feea590fca0568a4e33c6a0ec2af2985048ac
 </html>
