@@ -145,7 +145,7 @@ body
   font-size:120%;
 }
 
-div.row
+div.container
 {
   max-width: 960px;
 }
