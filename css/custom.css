@@ -144,3 +144,8 @@ body
 {
   font-size:120%;
 }
+
+div.row
+{
+  max-width: 960px;
+}
