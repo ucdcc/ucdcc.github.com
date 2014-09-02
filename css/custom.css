@@ -125,7 +125,15 @@ body
 
 .committee_title
 {
- font-size:130%; 
+ font-size:130%;
+ line-height:50%; 
+}
+
+.committee_number
+{
+ font-size:98%;
+ font-weight:normal;
+ font-style:italic;
 }
 
 /*custom styles for new members page*/
