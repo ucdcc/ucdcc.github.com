@@ -76,7 +76,7 @@ body
 {
   position: absolute;
   z-index: 50;
-  overflow: visible;
+  overflow: hidden;
   width: 500px;
   height:450px;
 }
@@ -126,7 +126,7 @@ body
 .committee_title
 {
  font-size:130%;
- line-height:50%; 
+ line-height:85%; 
 }
 
 .committee_number
