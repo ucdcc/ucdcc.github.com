@@ -120,7 +120,7 @@ body
   -webkit-border-radius: 10px;
   overflow:hidden;
   width:150px;
-  height:150px;
+  /*height:150px;*/
 }
 
 .committee_title
